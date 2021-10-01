@@ -52,5 +52,5 @@ REGISTER
 
 ![image](https://user-images.githubusercontent.com/83052847/135655682-19686cca-3183-4087-b2e7-42cf77d5a62b.png)
 
-
+Clone and run the project in your system to experience the website and get the above attached web app.
 
