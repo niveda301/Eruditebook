@@ -1,0 +1,174 @@
+
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+section
+{
+    position: relative;
+    width:100%;
+    min-height:100vh;
+    padding:100px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+
+section .circle
+{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:black;
+    clip-path:circle(55% at right -30%);
+
+}
+header{
+    position:absolute;
+    top:0px;
+    right: 70px;
+    left:80px;
+    width:100%;
+    padding: 60px 100px;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header .navigation{
+    position: relative;
+    display:flex;
+    float:right;}
+
+header .navigation li{
+    list-style:none;
+}
+
+header .navigation li a{
+    display:inline-block;
+    color:blanchedalmond;
+    font: weight 500px;
+    margin-left: 45px;
+    text-decoration: none;
+    font-style: italic;
+    font-size: larger;
+}
+
+header .navigation li :hover{
+    background-color:goldenrod;
+}
+#logo
+{position:absolute;
+top:0;
+left:0;}
+
+.content 
+{
+  position:relative;
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.content .textBox
+ {
+position: relative;
+max-width: 600px;
+margin-right: 20px;}
+
+.content .textBox h2
+ {
+color: #fff;
+font-size: 4em;
+margin-bottom: 10px;
+Line-height: 1.4em;
+font-weight: 700;}
+
+.content .textBox p
+{
+color: #fff;
+ }
+.content .textBox a
+{
+display: inline-block;
+margin-top: 40px;
+padding: 8px 20px;
+background:goldenrod;
+color:black;
+border-radius: 40px;
+font-weight: 500;
+Letter-spacing: 1px;
+text-decoration: none;
+
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  padding: 1% 1%;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color:black;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+  background-color:#ffbd59;
+}
+
+.box > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box:hover { flex: 1 1 50%; 
+}
+.box:hover > img {
+  width: 100%;
+  height: 100%;
+}
+
+.sci
+{position: absolute;
+ top:33%;
+ right:30px;
+transform:translateY(-50%);
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+}
+
+.sci li{
+  list-style:none;
+}
+
+.sci li a{
+  display:inline-block;
+  margin:5px;
+  transform: scale(0.6)
+}
+
+
+
